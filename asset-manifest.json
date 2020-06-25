@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lolchamp/static/css/main.8e157cd9.chunk.css",
-    "main.js": "/lolchamp/static/js/main.a6d12965.chunk.js",
-    "main.js.map": "/lolchamp/static/js/main.a6d12965.chunk.js.map",
+    "main.js": "/lolchamp/static/js/main.d9abacb3.chunk.js",
+    "main.js.map": "/lolchamp/static/js/main.d9abacb3.chunk.js.map",
     "runtime-main.js": "/lolchamp/static/js/runtime-main.124ebb0c.js",
     "runtime-main.js.map": "/lolchamp/static/js/runtime-main.124ebb0c.js.map",
     "static/js/2.a45a2a5d.chunk.js": "/lolchamp/static/js/2.a45a2a5d.chunk.js",
     "static/js/2.a45a2a5d.chunk.js.map": "/lolchamp/static/js/2.a45a2a5d.chunk.js.map",
     "index.html": "/lolchamp/index.html",
-    "precache-manifest.b0fb01bc3e86a373baea13c906865395.js": "/lolchamp/precache-manifest.b0fb01bc3e86a373baea13c906865395.js",
+    "precache-manifest.861fed28a9a4fc0850c3cf31177f786e.js": "/lolchamp/precache-manifest.861fed28a9a4fc0850c3cf31177f786e.js",
     "service-worker.js": "/lolchamp/service-worker.js",
     "static/css/main.8e157cd9.chunk.css.map": "/lolchamp/static/css/main.8e157cd9.chunk.css.map",
     "static/js/2.a45a2a5d.chunk.js.LICENSE.txt": "/lolchamp/static/js/2.a45a2a5d.chunk.js.LICENSE.txt",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.124ebb0c.js",
     "static/js/2.a45a2a5d.chunk.js",
     "static/css/main.8e157cd9.chunk.css",
-    "static/js/main.a6d12965.chunk.js"
+    "static/js/main.d9abacb3.chunk.js"
   ]
 }
