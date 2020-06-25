@@ -1,0 +1,381 @@
+.backHome {
+  top: 0;
+  position: fixed;
+  background: none;
+  border: 0;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  color: grey;
+}
+.backHome:hover {
+  background-color: hsla(90, 1%, 34%, 1);
+  color: white;
+}
+.details {
+  width: 100%;
+  height: 100%;
+}
+.details-box {
+  width: 100%;
+  height: 30em;
+}
+.details-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details-section {
+  position: absolute;
+  margin-top: -11em;
+  width: 100%;
+  min-height: 100%;
+  background-color: hsla(90, 1%, 34%, 0.8);
+}
+.details-title {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+.details-sub-title {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-top: -.5em;
+}
+.details-roles {
+  width: 100%;
+  height: 3em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0.5em 0em 0em 0em;
+}
+.details-role {
+  flex: 0 0 30%;
+  height: 100%;
+  background: rgb(161, 161, 161);
+  margin: 0em 0.5em;
+  text-align: center;
+  line-height: 2.8em;
+  font-size: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  text-transform: capitalize;
+}
+
+.bio-title {
+  text-align: center;
+  padding: 0.5em 0;
+  color: white;
+}
+.bio-box {
+  width: 100%;
+  border: 3px dashed peru;
+  margin-bottom: 1em;
+}
+.bio-p {
+  padding: 1em;
+  text-align: justify;
+  color: white;
+}
+.details-skills {
+  width: 90%;
+  height: 5em;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.details-skills-info {
+  width: 90%;
+  margin: 1em auto;
+  border: 1px solid white;
+}
+.details-skill {
+  flex: 0 0 20%;
+  height: 90%;
+  margin: 0.5em 0em;
+  border: 2px solid hsl(180, 1%, 32%);
+  transition: all 0.2s;
+}
+.details-skill-select {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skill:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-passive {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-q {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-w {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-e {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-r {
+  border: 2px solid orange;
+  cursor: pointer;
+  margin: 0em 1rem;
+}
+.details-skills-info-p {
+  padding: 1em;
+  color: white;
+  font-size: 1em;
+}
+.details-skills-info-h1 {
+  color:  orange;
+  padding: 1em 1em 0em 0.8em;
+}  
+
+.top {
+  background: lightgrey;
+  background-image: url("./pictures/Top_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mid {
+  background: lightgrey;
+  background-image: url("./pictures/Middle_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.jungle {
+  background: lightgrey;
+  background-image: url("./pictures/Jungle_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.adc{
+  background: lightgrey;
+  background-image: url("./pictures/Bottom_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.support{
+  background: lightgrey;
+  background-image: url("./pictures/Support_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (min-width: 768px){
+  .details-skill {
+    flex: 0 0 12%;
+    height: 90%;
+    margin: 0.5em 0.5em;
+    border: 2px solid hsl(180, 1%, 32%);
+    transition: all 0.2s;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .backHome {
+    position: absolute;
+    background: none;
+    border: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0.5em 0em;
+    text-decoration: none;
+    color: black;
+  }
+  .backHome:hover {
+    color: white;
+    background: unset;
+  }
+  .details-title {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    margin: 0.1em 0.5em 0em 0.5em;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .details-sub-title {
+    text-align: center;
+    color: white;
+    margin: -.5em 0.5em 2em 0em;
+    font-size: 2em;
+    font-family: 'Merienda One' ;
+  }
+  .details {
+    width: 100%;
+    height: 100vh;
+  }
+  .details-box {
+    width: 100%;
+    height: 100%;
+  }
+  .details-image {
+    position: fixed;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80%;
+  }
+  .details-section {
+    margin-top: unset;
+    top: 0;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-color: hsl(90, 1%, 34%);
+    color: grey;
+  }
+  .details-roles {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .details-role {
+    flex: 0 0 20%;
+    height: 100%;
+    background: rgb(161, 161, 161);
+    margin: 0 0.5em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 1.2em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+  
+  .top {
+    background: lightgrey;
+    background-image: url("./pictures/Top_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .mid {
+    background: lightgrey;
+    background-image: url("./pictures/Middle_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .jungle {
+    background: lightgrey;
+    background-image: url("./pictures/Jungle_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .adc{
+    background: lightgrey;
+    background-image: url("./pictures/Bottom_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .support{
+    background: lightgrey;
+    background-image: url("./pictures/Support_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .bio-box {
+    width: 90%;
+    border: 2px solid white;
+    margin: 4em auto 2em;
+    padding: 2em;
+  }
+  .bio-title {
+    color: white;
+    width: 5em;
+    position: absolute;
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 50%;
+    margin-top: 0.65em;
+    left: -2.5em;
+    background: hsl(90, 1%, 34%);
+    padding: unset;
+  }
+  .bio-p {
+    color: white;
+  }
+  .details-skills {
+    width: 90%;
+    height: 5em;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .details-skills-info {
+    width: 90%;
+    margin: 1em auto;
+    border: 1px solid white;
+  }
+  .details-skill {
+    height: 90%;
+    flex: 0 0 10%;
+    margin: 0.5em 1em;
+    border: 2px solid hsl(180, 1%, 32%);
+    transition: all 0.2s;
+  }
+  .details-skill-select {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skill:hover {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-passive {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-q {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-w {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-e {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-r {
+    border: 2px solid orange;
+    cursor: pointer;
+    margin: 0em 1rem;
+  }
+  .details-skills-info-p {
+    padding: 1em;
+    color: white;
+    font-size: 1em;
+  }
+  .details-skills-info-h1 {
+    color:  orange;
+    padding: 1em 1em 0em 0.8em;
+  }  
+}
