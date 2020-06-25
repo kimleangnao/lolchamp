@@ -50,7 +50,7 @@ class Details extends Component {
           <img className="details-image" src={backgroundImage} alt="aatrox-red" />
         </div>
         <section className="details-section">
-          <a href="/" className="backHome"><i className="fas fa-long-arrow-alt-left"></i></a>
+          <a href="/lolchamp" className="backHome"><i className="fas fa-long-arrow-alt-left"></i></a>
           <h1 className="details-title">{name}</h1>
           <p className="details-sub-title">{title}</p>
           <div className="details-roles ">
